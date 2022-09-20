@@ -9,7 +9,7 @@
 }
 header{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     background-color:darkcyan;
     color:whitesmoke;
     font-size: 30pt;
@@ -19,6 +19,9 @@ header{
     text-shadow: 2px 2px 5px black;
     border: 4px;
     border-color: black
+}
+img{
+    border-radius: 4pt;
 }         
 main,h1,div{
     margin:10px;
