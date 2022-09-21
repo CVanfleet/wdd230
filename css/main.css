@@ -11,7 +11,7 @@ header{
     display: grid;
     grid-template-columns: 30% 70%;
     background-color:darkcyan;
-    color:whitesmoke;
+    color:white;
     font-size: 30pt;
     text-align: center;
     align-items: center;
@@ -27,8 +27,9 @@ main,h1,div{
     margin:10px;
 }
 footer{
+    font-size: 15pt;
     background-color: darkcyan;
-    color:whitesmoke;
+    color:white;
     text-align: center;
     border-radius: 0 0 4pt 4pt;
     padding: 5px;
