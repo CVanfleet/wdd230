@@ -27,7 +27,8 @@ main,h1,div{
     margin:10px;
 }
 footer{
-    font-size: 15pt;
+    font-size: 14pt;
+    font-weight: bold;
     background-color: darkcyan;
     color:white;
     text-align: center;
