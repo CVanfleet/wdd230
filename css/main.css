@@ -1,16 +1,20 @@
-
 #content{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Manrope', sans-serif;
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
     background-color: lightgray;
     border-radius: 4pt;
     box-shadow: 2px 2px 5px black;
 }
+
+body{
+    min-width: 350px;
+}
+
 header{
     display: grid;
     grid-template-columns: 30% 70%;
-    background-color:darkcyan;
+    background-color: #4a4e69;
     color:white;
     font-size: 30pt;
     text-align: center;
@@ -18,18 +22,31 @@ header{
     border-radius: 4pt 4pt 0 0;
     text-shadow: 2px 2px 5px black;
     border: 4px;
-    border-color: black
+    border-color: black 
 }
 img{
     border-radius: 4pt;
-}         
-main,h1,div{
+    vertical-align:middle;
+}
+
+main, img{
     margin:10px;
 }
+
+h1 {
+    font-size: 30pt;
+    margin: .75rem auto;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 footer{
     font-size: 14pt;
     font-weight: bold;
-    background-color: darkcyan;
+    background-color: #4a4e69;
     color:white;
     text-align: center;
     border-radius: 0 0 4pt 4pt;
@@ -37,4 +54,3 @@ footer{
 }   
         
        
-   
