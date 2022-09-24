@@ -1,5 +1,11 @@
 @media only screen and (max-width: 430px){
 
+    #content{
+        width: 100%;
+    }
+    header{
+        border-radius: 0;
+    }
     main{
         grid-template-columns: 1fr;
         row-gap: 1%;
@@ -11,6 +17,7 @@
 
     footer{
         padding-top: 20%;
+        border-radius: 0;
     }
 
 }
