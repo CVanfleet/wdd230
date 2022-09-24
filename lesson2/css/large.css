@@ -6,7 +6,6 @@
     background-color: #4a4e69;
     border-radius: 4pt;
     box-shadow: 2px 2px 5px black;
-    font-size: auto;
 }
 
 body{
@@ -60,7 +59,6 @@ main h3{
     padding-bottom: 3px;
     font-size: 12pt;
     display: grid;
-    grid-template-rows: repeat(1fr, 4);
 }
 
 h1 {
