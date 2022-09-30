@@ -70,6 +70,28 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+a{
+    color: #4a4e69;
+    margin: 30px auto 30px auto;
+    padding: 1.2rem;
+    width: 30%;
+    max-width: 146px;
+    background-color: white;
+    text-align: center;
+    align-self:auto;
+    border-style: solid;
+    border-color: #4a4e69;
+    border-radius: 4pt;
+}
+
+a:visited, a:link{
+    text-decoration: none;
+}
 
 
 footer{
