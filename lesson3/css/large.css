@@ -42,8 +42,7 @@ header{
 
 #social-media-within{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    place-items: right;   
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
 }
 
 #social-media-block{
