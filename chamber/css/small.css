@@ -1,0 +1,125 @@
+/* header #4a4e69*/
+
+#name {
+    display: none;
+}
+
+nav {
+    background-color: rgb(74, 78, 105);
+}
+
+nav div {
+    display: flex;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #eee;
+}
+
+div img {
+    width: 3rem;
+    margin: .2rem;
+}
+
+#social-container {
+    margin-left: auto;
+}
+
+#logo {
+    margin-left: auto;
+    width: 2.5rem;
+    height: 3rem;
+}
+
+#logo-footer{
+    width: 6rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #eee;
+    border-top: 1px solid rgba(238,238,238,0.5);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+
+nav ul li a.active {
+    background-color: rgb(193, 187, 187);
+    color: rgb(74, 78, 105);
+}
+
+nav ul li a:hover{
+    background-color: rgb(129, 135, 170);
+    color: #eee;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* End of header */
+
+/* Start of main */
+
+main {
+    display: block;
+}
+
+section div:nth-child(3){
+    display: none;
+}
+
+main div {
+    background-color: lightgray;
+    margin: .5rem auto;
+    padding-bottom: 8rem;
+    padding-left: 1rem;
+    border-top: 1px solid #292c3b;
+    border-bottom: 1px solid #292c3b;
+
+}
+
+main section div {
+    background-color: rgb(229, 229, 229);
+    border: 1px solid #292c3b;
+}
+
+main section {
+    background-color: lightgray;
+    margin: .5rem auto;
+    padding: .2rem;
+    border-top: 1px solid #292c3b;
+    border-bottom: 1px solid #292c3b;
+}
+
+/* End of main */
+
+/* Start of footer */
+
+footer {
+    background-color: #4a4e69;
+    color: #eee;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+footer img{
+    width: auto;
+}

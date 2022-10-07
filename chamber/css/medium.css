@@ -1,0 +1,69 @@
+@media only screen and (min-width: 42.5rem){
+
+nav button {display: none;}
+
+#logo{
+    margin: 0;  
+    margin: .5rem ;  
+}
+
+#name{
+    display: block;
+    font-size: .6rem;
+    color: #eee;
+    margin: .8rem;
+}
+
+#name h1{
+    padding: 0;
+    margin: 0;
+}
+#name h2{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex !important;
+    justify-content: center;
+}
+
+nav ul li:nth-child(1){
+    border-left: 1px solid rgba(238,238,238,0.5);
+}
+
+nav ul li a {
+    border-right: 1px solid rgba(238,238,238,0.5); 
+    border-top: none;   
+    padding-left: 9.3vw;
+    padding-right: 9.3vw;
+}
+
+main section {
+    display: flex;
+    padding: auto;
+}
+
+main section div {
+    margin: auto;
+    padding-left: 19vw;
+    padding-right: 19vw;
+}
+
+#footer-info{
+   display: flex;
+   margin-left: 6rem;
+   margin-right: 6rem;
+}
+
+#footer-info div:nth-child(2){
+    margin-left: auto;
+}
+
+#end{
+    display: flex;
+    justify-content: center;
+}
+
+
+}
