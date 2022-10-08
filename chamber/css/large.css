@@ -7,7 +7,7 @@ main{
     padding: .3rem;
 }
 
-section div:nth-child(3){
+#spotlights div:nth-child(3){
     display: block;
 }
 
@@ -15,12 +15,12 @@ main div{
     border: 1px solid #292c3b;
     margin: 0;
 }
-main section{
+#spotlights{
     border: 1px solid #292c3b;
     margin: 0;
 }
 
-main section div {
+#spotlights div {
     padding-left: 0;
     padding-right: 0;
     margin: .3rem;

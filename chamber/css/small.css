@@ -80,7 +80,7 @@ main {
     display: block;
 }
 
-section div:nth-child(3){
+#spotlights div:nth-child(3){
     display: none;
 }
 
@@ -94,12 +94,12 @@ main div {
 
 }
 
-main section div {
+#spotlights div {
     background-color: rgb(229, 229, 229);
     border: 1px solid #292c3b;
 }
 
-main section {
+#spotlights {
     background-color: lightgray;
     margin: .5rem auto;
     padding: .2rem;

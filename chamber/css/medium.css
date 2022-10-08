@@ -39,12 +39,11 @@ nav ul li a {
     padding-right: 9.3vw;
 }
 
-main section {
+#spotlights {
     display: flex;
-    padding: auto;
 }
 
-main section div {
+#spotlights div {
     margin: auto;
     padding-left: 19vw;
     padding-right: 19vw;
