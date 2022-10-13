@@ -5,7 +5,7 @@
 }
 
 nav {
-    background-color: #4a4e69;
+    background-color: rgb(74, 78, 105);
 }
 
 nav div {
@@ -73,6 +73,16 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /* End of header */
+
+/* Date */
+
+#dateContainer {
+    color:rgb(229, 229, 229);
+    text-align: right;
+    font-size: smaller;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
 
 /* Start of main */
 
