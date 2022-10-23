@@ -20,7 +20,7 @@
         <nav>
             <div>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
-                <img id="logo" src="images/eagle-white.png" alt="white eagle logo">
+                <img id="logo" src="images/eagle-white.webp" alt="white eagle logo">
                 <div id="name">
                     <h1>Eagle</h1>
                     <h2>Chamber of Commerce</h2>
@@ -35,22 +35,39 @@
             </section> 
             <ul id="navList">
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Other</a></li>
-                <li><a href="#">Other2</a></li>
-                <li><a href="#">Other3</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
         <div id="hero">
+            <picture class="heroPhoto">
+                <source media="(max-widtha; 200px)" srcset="images/wdd230-org-small200.jpg">
+                <source media="(max-widtha; 600px)" srcset="images/wdd230-org-medium600.jpg">
+                <source media="(max-widtha; 1100px)" srcset="images/wdd230-orglarge1100.jpg">
+                <img src="images/wdd230-org.jpg" alt="call to action">
+            </picture>
             <p>Hero with site name and call to action</p>
         </div>
         <div id="event">
             <p>Event</p>
         </div>
         <div id="weather">
-            <p>Weather</p>
+            <div>
+                <h1>Weather</h1>
+                <div>
+                    <span><img src="images/cloudy.jpeg" alt="weather picture" id="weather-icon"></span>
+                    <h2><span id="temp"></span>&#8457</h2>
+                </div>
+                <h3><span id="current-weather"></span></h3>
+                <hr>
+                <p>Wind Speed: <span id="wind"></span> mph</p>
+                <p>Wind Chill: <span id="chill"></span>&#8457</p>
+            </div>
         </div>
         <div id="news">
             <p>News Release</p>
@@ -73,7 +90,7 @@
     <footer>
         <div id="footer-info">
             <div>
-                <img id="logo-footer" src="images/eagle-white.png" alt="white eagle logo">
+                <img id="logo-footer" src="images/eagle-white.webp" alt="white eagle logo">
                 <h3>Eagle Chamber of Commerce</h3>
                 <h4>321 North 4th West Eagle, ID 83616</h4>
             </div>
@@ -91,5 +108,6 @@
         </div>
     </footer>
     <script src = "js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

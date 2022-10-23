@@ -95,13 +95,46 @@ main {
 }
 
 main div {
-    background-color: lightgray;
+    background-color: #292c3b;
+    color: #eee;
     margin: .5rem auto;
-    padding-bottom: 8rem;
-    padding-left: 1rem;
+    padding: .3rem;
     border-top: 1px solid #292c3b;
     border-bottom: 1px solid #292c3b;
+}
 
+picture.heroPhoto {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+picture.heroPhoto img {
+    width: 100%;
+    margin: 0;
+}
+
+div#weather {
+    text-align: center;
+    padding: 0
+}
+
+#weather div div {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    align-items: center;
+    
+}
+
+#weather div div h2{
+    font-size: 2.5rem;
+    margin-left: 2%;
+}
+
+#weather div div span img {
+    width: 150px;
+    border-radius: 8px;
 }
 
 #spotlights div {
@@ -110,11 +143,14 @@ main div {
 }
 
 #spotlights {
-    background-color: lightgray;
-    margin: .5rem auto;
+    background-color: #292c3b;
+    margin: .8rem auto;
     padding: .2rem;
     border-top: 1px solid #292c3b;
     border-bottom: 1px solid #292c3b;
+}
+#spotlights div p {
+    color: #292c3b;
 }
 
 /* End of main */
