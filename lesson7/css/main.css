@@ -1,0 +1,14 @@
+picture {display: block;}
+
+picture img[data-src] {
+    /* filter: blur(0.3em); */
+    filter: opacity(30%) blur(0.3em);
+}
+
+picture img {
+
+    filter: opacity(100%) blur(0em);
+    transition: filter 1s;
+    /* filter: blur(0em);
+    transition: filter 2s; */
+}
