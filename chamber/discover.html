@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Clayton's website">
+    <title>Eagle Chamber - Main - WDD 230-03</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> 
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet"> 
+</head>
+<body id="content">
+    <header>
+        <nav>
+            <div>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <img id="logo" src="images/eagle-white.webp" alt="white eagle logo">
+                <div id="name">
+                    <h1>Eagle</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+                <div id="social-container">
+                    <a href=""><img class="social" src="images/facebook-circe.png" alt="facbook page"></a>
+                    <a href=""><img class="social" src="images/twitter-round.png" alt="twitter page"></a>
+                </div>
+            </div>
+            <section id="dateContainer">
+                <span id="date"></span>
+            </section> 
+            <ul id="navList">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header id="discoverHeader">
+        <h1>Discover</h1>
+        <h3>Hello! You have visited this site <span id="timesVisited"></span> times!</h3>
+        <h3>The last time you visited was <span id="lastVisited"></span> days ago!</h3>
+        <h3>There are a lot of things to discover in Eagle, Idaho</h3>
+    </header>
+    <main id="discoverContent">
+        <picture class="discoverOdd">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-sign2-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-sign2-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-sign2-large.jpeg" class="oddImg" alt="eagle bridge">
+            <h3>Breathtaking Landmarks</h3>
+        </picture>
+        <picture class="discoverEven">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-Idaho-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-Idaho-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-idaho-large.jpeg" class="evenImg" alt="eagle bridge">
+            <h3>Amazing Landscape</h3>
+        </picture>
+        <picture class="discoverOdd">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-bridge-small.png">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-bridge-medium.png">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-bridge-large.png" class="oddImg" alt="eagle bridge">
+            <h3>Bridges</h3>
+        </picture>
+        <picture class="discoverEven">
+            <source media="(max-width: 200px)" srcset="images/discover/city_of_Eagle_Sign-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/city_of_Eagle_Sign-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/city_of_Eagle_Sign-large.jpeg" class="evenImg" alt="eagle bridge">
+            <h3>Friendly People</h3>
+        </picture>
+        <picture class="discoverOdd">
+            <source media="(max-width: 200px)" srcset="images/discover/drug-store-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/drug-store-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/drug-store-large.jpeg" class="oddImg" alt="eagle bridge">
+            <h3>Historic buildings</h3>
+        </picture>
+        <picture class="discoverEven">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-over-water-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-over-water-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-over-water-large.jpeg" class="evenImg" alt="eagle bridge">
+            <h3>Literal EAGLES!</h3>
+        </picture>
+        <picture class="discoverOdd">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-park2-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-park2-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-park2-large.jpeg" class="oddImg" alt="eagle bridge">
+            <h3>Parks</h3>
+        </picture>
+        <picture class="discoverEven">
+            <source media="(max-width: 200px)" srcset="images/discover/great-park-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/great-park-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/great-park-large.jpeg" class="evenImg" alt="eagle bridge">
+            <h3>Even more parks!</h3>
+        </picture>
+        <picture class="discoverOdd">
+            <source media="(max-width: 200px)" srcset="images/discover/eagle-slopes-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/eagle-slopes-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/eagle-slopes-large.jpeg" class="oddImg" alt="eagle bridge">
+            <h3>Snow sports</h3>
+        </picture>
+        <picture class="discoverEven">
+            <source media="(max-width: 200px)" srcset="images/discover/orville-house-small.jpeg">
+            <source media="(max-width: 600px)" srcset="images/discover/orville-house-medium.jpeg">
+            <img src="images/discover/placeholder-medium.png" data-src="images/discover/orville-house-large.jpeg" class="evenImg" alt="eagle bridge">
+            <h3>Olden time feels</h3>
+        </picture>
+    </main>
+    <footer>
+        <div id="footer-info">
+            <div>
+                <img id="logo-footer" src="images/eagle-white.webp" alt="white eagle logo">
+                <h3>Eagle Chamber of Commerce</h3>
+                <h3>321 North 4th West Eagle, ID 83616</h3>
+            </div>
+            <div>
+                <h3>support@eaglechamber.org</h3>
+                <h3>208-888-1234</h3>
+                <h3>Location Map:</h3>
+                <a href="https://www.google.com/maps/place/Eagle,+ID/@43.6849633,-116.3766954,11.88z/data=!4m5!3m4!1s0x54afaaa29029fcdb:0x3ad04fff6ebb4a3a!8m2!3d43.6954424!4d-116.3540138" target="_blank"><img src="images/map-icon.png" alt="map icon"></a>
+            </div>
+        </div>
+        <hr>
+        <div id="end">
+            <div class="footer-elements">&copy; <span></span> Eagle Chamber | Clayton Vanfleet | WDD 230 Project |</div>
+            <div class="footer-elements">&nbsp;Last Updated: <span id="lastupdateddata"></span></div>
+        </div>
+    </footer>
+    <script src = "js/main.js"></script>
+    <script src = "js/discover.js"></script>
+</body>
+</html>

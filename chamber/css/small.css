@@ -168,3 +168,31 @@ footer {
 footer img{
     width: auto;
 }
+
+/* Discover page */
+#discoverContent{
+    text-align: center;
+}
+
+#discoverContent picture {display: block;}
+
+#discoverContent picture img[data-src] {
+    filter: opacity(30%) blur(0.3em);
+}
+
+#discoverContent picture img {
+
+    filter: opacity(100%) blur(0em);
+    transition: filter 2s;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px black;
+}
+
+#discoverHeader{
+    text-align: center;
+    color: #292c3b;
+}
+
+#timesVisited, #lastVisited{
+    color: #676f93;
+}
