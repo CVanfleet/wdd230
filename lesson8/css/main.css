@@ -1,0 +1,66 @@
+table{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 25pt;
+    font-family: Ubuntu, sans-serif;
+}
+
+table{
+    box-shadow: 4px 4px 8px black;
+}
+table caption {
+    box-shadow: 4px 6.5px 8px black;
+}
+
+table, th, td, caption{
+    border: 1px black solid;
+}
+
+table caption, table tfoot {
+    background-color: rgba(60, 71, 124, .6);
+}
+
+table tr > th, table tbody tr:nth-child(4) td:nth-child(3) {
+    background-color: rgb(60, 71, 124);
+    color:white;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgba(41, 44, 59, .4);
+}
+
+table tbody tr:nth-child(even){
+    background-color: rgba(41, 44, 59, .2);
+}
+
+tfoot{
+    font-size: .5em;
+}
+
+td, th{
+    padding: 10px;
+}
+
+/* For the zebra fonting on table*/
+
+/*
+thead tr:nth-child(1){
+    
+}
+
+thead tr:nth-child(2){
+    
+}
+
+thead tr:nth-child(odd){
+
+}
+
+thead tr:nth-child(even){
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+*/
