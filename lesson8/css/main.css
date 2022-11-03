@@ -40,27 +40,3 @@ tfoot{
 td, th{
     padding: 10px;
 }
-
-/* For the zebra fonting on table*/
-
-/*
-thead tr:nth-child(1){
-    
-}
-
-thead tr:nth-child(2){
-    
-}
-
-thead tr:nth-child(odd){
-
-}
-
-thead tr:nth-child(even){
-    
-}
-
-table{
-    border-collapse: collapse;
-}
-*/
