@@ -196,3 +196,51 @@ footer img{
 #timesVisited, #lastVisited{
     color: #676f93;
 }
+
+/*Join page*/
+
+div.form-container{
+    display: block;
+    width: auto;
+    margin-top: 0;
+}
+
+div#join-us {
+    padding-left: 1.5rem;
+}
+
+main#form-content div.form-container {
+    padding-left: 1rem;
+}
+
+label.textinput{
+    display: block;
+    padding-top: 1rem;
+}
+
+label.textinput input, label.textinput textarea{
+    display: block;
+    font-size: 1.2rem;
+    padding: .5rem;
+    width: 20rem;
+    max-width: 20rem;
+}
+
+label.radinput {
+    display: block;
+}
+
+label.btn input {
+    margin: 1rem 0 1rem 0;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+
+label.btn input:hover{
+    background-color: #a92837;
+    color:#eee;
+}
+
+main#form-submit-content {
+    text-align: center;
+}

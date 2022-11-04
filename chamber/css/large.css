@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64rem){
-main{
+main#portal-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -89,10 +89,19 @@ main div{
     text-align: left;
 }
 
-#footer-info{
-    margin-left: 15rem;
-    margin-right: 15rem;
-    
+/*Join page*/
+
+div#join-us{
+    padding-left: 17vw;
+}
+
+div#join-container {
+    display: flex;
+    padding-left: 17vw;
+}
+
+div.form-container{
+    width: 50%;
 }
 
 

@@ -50,18 +50,35 @@ nav ul li a {
 }
 
 #footer-info{
-   display: flex;
-   margin-left: 6rem;
-   margin-right: 6rem;
+    display: flex;
+
+}
+
+#footer-info div:nth-child(1){
+    margin:auto;
 }
 
 #footer-info div:nth-child(2){
-    margin-left: auto;
+    margin:auto;
 }
 
 #end{
     display: flex;
     justify-content: center;
+}
+
+/*Join page*/
+
+main#form-content {
+    display: block;
+}
+
+div#join-container {
+    display: flex;
+}
+
+div.form-container{
+    width: 50%;
 }
 
 

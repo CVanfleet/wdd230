@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for Clayton's website">
+    <title>Eagle Chamber - Join Us - WDD 230-03</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"> 
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet"> 
+</head>
+<body id="content">
+    <header>
+        <nav>
+            <div>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+                <img id="logo" src="images/eagle-white.webp" alt="white eagle logo">
+                <div id="name">
+                    <h1>Eagle</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+                <div id="social-container">
+                    <a href=""><img class="social" src="images/facebook-circe.png" alt="facbook page"></a>
+                    <a href=""><img class="social" src="images/twitter-round.png" alt="twitter page"></a>
+                </div>
+            </div>
+            <section id="dateContainer">
+                <span id="date"></span>
+            </section> 
+            <ul id="navList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="form-content">
+        <div id="join-us"><h1>Join Us!</h1></div>
+        <div id="join-container">
+            <div class="form-container">
+                <section>
+                    <form action="thankyou.html" method="GET">
+                        <label class="textinput">First Name* <input id="fname" type="text" name="fname" required></label>
+                        <label class="textinput">Last Name* <input id="lname" type="text" name="lname" required></label>
+                        <label class="textinput">Title <input type="text" name="title" pattern="[A-Za-z -]{3,}"></label>
+                        <label class="textinput">Email* <input type="email" name="email" id="email" required></label>
+                        <label class="textinput">Cell Phone* <input type="tel" name="cellphone" required></label>
+                        <label class="textinput">Business Name* <input type="text" name="bizname" required></label>
+                        <label class="textinput">Business Description <textarea name="description" cols="30" rows="10"></textarea></label>
+                        <h3>Membership Level</h3>
+                        <label class="radinput"><input type="radio" name="level" value="nonprofit"> Non-Profit</label>
+                        <label class="radinput"><input type="radio" name="level" value="bronze"> Bronze</label>
+                        <label class="radinput"><input type="radio" name="level" value="silver"> Silver</label>
+                        <label class="radinput"><input type="radio" name="level" value="gold"> Gold</label>
+                        <label><input type="hidden" name="datetime" id="datetime"></label>
+                        <label class="btn"><input type="submit" value="Sign Up Now!"></label>
+                    </form>
+                </section>
+            </div>
+            <div class="form-container">
+                <section>
+                    <h2>Membership Levels Benefits</h2>
+                    <h3>NP Membership</h3>
+                    <ul>
+                        <li>For non profit organizations and there is no fee</li>
+                    </ul>
+                    <h3>Bronze Membership</h3>
+                    <ul>
+                        <li>15% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Fee of $50/month</li>
+                    </ul>
+                    <h3>Silver Membership</h3>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>15% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/month</li>
+                    </ul>
+                    <h3>Gold Membership</h3>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>5 free featured ads per year</li>
+                        <li>1 free training per quarter</li>
+                        <li>Fee of $250/month</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-info">
+            <div>
+                <img id="logo-footer" src="images/eagle-white.webp" alt="white eagle logo">
+                <h3>Eagle Chamber of Commerce</h3>
+                <h4>321 North 4th West Eagle, ID 83616</h4>
+            </div>
+            <div>
+                <h4>support@eaglechamber.org</h4>
+                <h4>208-888-1234</h4>
+                <h4>Location Map:</h4>
+                <a href="https://www.google.com/maps/place/Eagle,+ID/@43.6849633,-116.3766954,11.88z/data=!4m5!3m4!1s0x54afaaa29029fcdb:0x3ad04fff6ebb4a3a!8m2!3d43.6954424!4d-116.3540138" target="_blank"><img src="images/map-icon.png" alt="map icon"></a>
+            </div>
+        </div>
+        <hr>
+        <div id="end">
+            <div class="footer-elements">&copy; <span></span> Eagle Chamber | Clayton Vanfleet | WDD 230 Project |</div>
+            <div class="footer-elements">&nbsp;Last Updated: <span id="lastupdateddata"></span></div>
+        </div>
+    </footer>
+    <script src = "js/main.js"></script>
+    <script src = "js/join.js"></script>
+</body>
+</html>
