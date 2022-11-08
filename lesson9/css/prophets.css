@@ -1,0 +1,35 @@
+main{
+    width: 100%;
+}
+
+div.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100vw;
+    gap: 10px;
+    margin: 0px;
+}
+
+section.card {
+    background-color: rgb(33, 94, 120);
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 600px){
+
+    div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
