@@ -245,3 +245,78 @@ label.btn input:hover{
 main#form-submit-content {
     text-align: center;
 }
+
+/* Directory Page */
+
+div#card-view {
+    background-color:white;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+img#icon-table {
+    opacity: 0.5;
+}
+
+header#directory-header {
+    text-align: center;
+}
+
+section.bizcards{
+    background-color:#676f93;
+    color: white;
+    padding: 10px;
+    margin: 0 5% 0 5%;
+    border-radius: 6px;
+    box-shadow: 4px 4px 8px black;
+}
+
+section.bizcards a {
+    text-decoration: none;
+    background-color: #a92837;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+img.comp-logo{
+    height: 50px;
+    width: 110px;
+}
+
+div#table-view {
+    background-color: white;
+    color: #292c3b;
+    display: none;
+}
+
+div#table-view table {
+    border-collapse: collapse;
+    font-size: 15pt;
+    width: 100%;
+    box-shadow: 4px 4px 7px black;
+}
+
+div#table-view table tr td {
+    padding: 10px;
+    display: flex;
+}
+
+
+div#table-view table tr td a {
+    text-decoration: none;
+    background-color: #a92837;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 8px;    
+}
+
+div#table-view table tr:nth-child(odd){
+    background-color: #bbbed3;
+    
+}
+

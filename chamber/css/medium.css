@@ -81,5 +81,17 @@ div.form-container{
     width: 50%;
 }
 
+/* Directory Page */
+
+div#card-view {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+section.bizcards{
+    margin:auto;
+}
+
+
 
 }

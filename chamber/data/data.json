@@ -1,0 +1,88 @@
+{
+    "business" : [
+        {
+            "name" : "Walmart",
+            "address" : "7319 W State St, Garden City, ID 83714",
+            "phone" : "(208)853-0541",
+            "website" : "https://www.walmart.com/store/2861-garden-city-id",
+            "imageurl" : "./images/directory/walmart.png"
+        },
+        {
+            "name" : "T.J. Maxx & HomeGoods",
+            "address" : "8345 W Franklin Rd, Boise, ID 83709",
+            "phone" : "(208)376-1878",
+            "website" : "https://tjmaxx.tjx.com/store/index.jsp",
+            "imageurl" : "./images/directory/tjmaxx.png"
+        },
+        {
+            "name" : "Ross Dress for Less",
+            "address" : "6720 N Glenwood St, Boise, ID 83714",
+            "phone" : "(208)853-0882",
+            "website" : "http://www.rossstores.com/",
+            "imageurl" : "./images/directory/ross.png"
+        },
+        {
+            "name" : "Target",
+            "address" : "6280 N Eagle Rd, Boise, ID 83713",
+            "phone" : "(208)938-8350",
+            "website" : "https://www.target.com/sl/boise-eagle-road/1230",
+            "imageurl" : "./images/directory/target.png"
+        },
+        {
+            "name" : "Michaels",
+            "address" : "2310 N Eagle Rd, Meridian, ID 83646",
+            "phone" : "(208)473-7509",
+            "website" : "https://locations.michaels.com/id/meridian/1252/?utm_source=Google&utm_medium=Maps&utm_campaign=Google+Places",
+            "imageurl" : "./images/directory/michaels.jpeg"
+        },
+        {
+            "name" : "Costco Wholesale",
+            "address" : "3403 W Chinden Blvd, Meridian, ID 83646",
+            "phone" : "(986)200-4136",
+            "website" : "http://www.costco.com/warehouse-locations/meridian-ID-1343.html?utm_term=KW&utm_campaign=Homepage&utm_medium=GMB&utm_source=Google&utm_content=Link",
+            "imageurl" : "./images/directory/costco.png"
+        },
+        {
+            "name" : "WinCo Foods",
+            "address" : "3032 E State St, Eagle, ID 83616",
+            "phone" : "(208)908-4903",
+            "website" : "http://www.wincofoods.com/",
+            "imageurl" : "./images/directory/winco.png"
+        },
+        {
+            "name" : "McDonalds's",
+            "address" : "178 S Eagle Rd, Eagle, ID 83616",
+            "phone" : "(208)938-0031",
+            "website" : "https://www.mcdonalds.com/us/en-us/location/ID/EAGLE/178-S-EAGLE-RD/19731.html?cid=RF:YXT:GMB::Clicks",
+            "imageurl" : "./images/directory/mcdonalds.jpeg"
+        },
+        {
+            "name" : "Wendy's",
+            "address" : "65 E Eagle River St, Eagle, ID 83616",
+            "phone" : "(208)939-8717",
+            "website" : "https://locations.wendys.com/united-states/id/eagle/65-eagle-river-drive?utm_source=Yext&utm_medium=Google_My_Business&utm_campaign=Local_Search&utm_content=EN_US",
+            "imageurl" : "./images/directory/wendys.png"
+        },
+        {
+            "name" : "Chick-fil-A",
+            "address" : "2012 N Eagle Rd, Meridian, ID 83646",
+            "phone" : "(208)887-2143",
+            "website" : "https://www.chick-fil-a.com/villageatmeridian",
+            "imageurl" : "./images/directory/chickfila.png"
+        },
+        {
+            "name" : "Panda Express",
+            "address" : "6675 N Glenwood St, Garden City, ID 83714",
+            "phone" : "(208)853-0230",
+            "website" : "https://www.pandaexpress.com/userlocation/1132/ID/Garden-City/6675-N-Glenwood-St",
+            "imageurl" : "./images/directory/panda.png"
+        },
+        {
+            "name" : "Sportsman's Warehouse",
+            "address" : "3797 E Fairview Ave, Meridian, ID 83642",
+            "phone" : "(208)884-3000",
+            "website" : "https://stores.sportsmans.com/sportsmans-warehouse/us/id/meridian/3797-e-fairview-avenue?utm_source=google&utm_medium=organic&utm_campaign=GMB&y_source=1_OTg4MDE5MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+            "imageurl" : "./images/directory/sportsmans.png"
+        }
+    ]
+}
