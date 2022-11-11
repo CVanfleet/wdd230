@@ -282,6 +282,10 @@ section.bizcards a {
     border-radius: 8px;
 }
 
+section.bizcards a:hover {
+    background-color: rgb(175, 76, 88);
+}
+
 img.comp-logo{
     height: 50px;
     width: 110px;
@@ -313,6 +317,10 @@ div#table-view table tr td a {
     padding: 4px;
     border: 1px solid white;
     border-radius: 8px;    
+}
+
+div#table-view table tr td a:hover {
+    background-color: rgb(175, 76, 88);
 }
 
 div#table-view table tr:nth-child(odd){
