@@ -328,3 +328,8 @@ div#table-view table tr:nth-child(odd){
     
 }
 
+/* Weather api test */
+
+main#weather-test{
+    padding: 10px;
+}
