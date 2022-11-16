@@ -1,4 +1,5 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5591778&appid=eca2e7203a10b67fdba7623d59464749&units=imperial";
+const mykey = config.MY_KEY;
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5591778&appid=${mykey}&units=imperial`;
 
 fetch(apiURL)
     .then((response) => response.json())
