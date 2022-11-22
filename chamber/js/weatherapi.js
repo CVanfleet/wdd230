@@ -11,7 +11,7 @@ fetch(apiURL)
         const des = jsObject.weather[0].description.toUpperCase();
         const weatherId = jsObject.weather[0].id;
         const wind = Math.round(jsObject.wind.speed);
-        let chill = calcWindChill(wind, temp);
+        let chill = 'N/a';
         const dt = jsObject.dt;
         const sunset = jsObject.sys.sunset;
         const tempHigh = jsObject.main.temp_max;
@@ -27,11 +27,10 @@ fetch(apiURL)
         document.querySelector('#temp-high').textContent = tempHigh.toFixed(1);
         document.querySelector('#temp-low').textContent = tempLow.toFixed(1);
 
-        if(temp <= 50 && wind > 3){
-            document.querySelector('#chill').textContent = chill;
-        }
-        else{
-            document.querySelector('#chill').textContent = "N/a";
+        if(temp <= 50 && wind > 3)
+        {
+            chill = calcWindChill(wind, temp);
+            document.querySelector('#chill').innerHTML = `${chill}&#8457;`;
         }
 
         if (weatherId >= 200 && weatherId < 531)
@@ -67,7 +66,7 @@ fetch(apiURL)
                 document.querySelector('#weathericon').setAttribute('src', 'images/fog.jpeg');
             }
         }
-        else if (weatherId >= 801 && weatherId < 804)
+        else if (weatherId >= 801 && weatherId < 805)
         {
             if (dt >= sunset)
             {

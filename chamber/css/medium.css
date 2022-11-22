@@ -91,7 +91,65 @@ div#card-view {
 section.bizcards{
     margin:auto;
 }
+}
 
+@media only screen and (min-width: 58.75rem){
+/* Contact page */
 
+div#contact-form-container {
+    width: auto;
+    font-size: 16pt;
+    padding-left: 2%;
+}
+
+div#contact-form-container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+}
+
+div#contact-form-container form label:nth-child(1){
+    grid-row: 1;
+    grid-column: 1;
+}
+
+div#contact-form-container form label:nth-child(2){
+    grid-row: 2;
+    grid-column: 1;
+}
+
+div#contact-form-container form label:nth-child(3){
+    grid-row: 3;
+    grid-column: 1;
+}
+
+div#contact-form-container form label:nth-child(4){
+    grid-row: 4;
+    grid-column: 1;
+}
+
+div#contact-form-container form label:nth-child(5){
+    grid-row: 1 / 4;
+    grid-column: 2;
+}
+
+label.contactinput {
+    display: block;
+    padding-top: 1rem;
+}
+
+label.contactinput input, label.contactinput textarea{
+    display: block;
+    font-size: 1.2rem;
+    width: 20rem;
+    max-width: 20rem;
+}
+
+label.mess-btn {
+    margin: 0;
+}
 
 }

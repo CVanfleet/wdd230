@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Clayton's website">
-    <title>Eagle Chamber - Main - WDD 230-03</title>
+    <title>Eagle Chamber - Message Sent - WDD 230-03</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,14 +42,19 @@
             </ul>
         </nav>
     </header>
-    <main id="weather-test">
-        <h1>OpenWeatherMap.org API Test</h1>
-        <hr>
-        <p>The current temperature in <span id="city-temp"></span> is <span id="current-temp"></span> &deg;F</p>
-        <p>The current conditions icon path is "<span id="icon-src"></span>"</p>
-        <figure><img src="" alt="" id="weathericon" />  
-            <figcaption></figcaption>
-        </figure>
+    <main id="form-submit-content">
+        <div>
+            <h2 class="message-res">Your message has been sent!</h2>
+            <h3 class="message-res">See below for details</h3>
+            <div id="checkMsg">
+                <div>
+                    <p>Name: <span id="senderName"></span></p>
+                    <p>Email: <span id="senderEmail"></span></p>
+                    <p>Phone: <span id="senderNum"></span></p>
+                    <p>Message: <span id="senderMsg"></span></p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -72,6 +77,6 @@
         </div>
     </footer>
     <script src = "js/main.js"></script>
-    <script src ="js/weatherapi.js"></script>
+    <script src="js/messagesent.js"></script>
 </body>
 </html>

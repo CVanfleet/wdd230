@@ -11,20 +11,34 @@ main#portal-content{
     display: block;
 }
 
+main#portal-content{
+    font-size:larger;
+}
+
 main div{
     border: 1px solid #292c3b;
     margin: 0;
 }
-#spotlights{
+div#spotlights{
     border: 1px solid #292c3b;
     margin: 0;
+    max-width: fit-content;
 }
 
-#spotlights div {
+div#spotlights div {
     padding-left: 0;
     padding-right: 0;
     margin: .3rem;
     padding-left: .3rem;
+}
+
+div#spotlights{
+    width: 100%;
+    justify-content: center;
+}
+
+div#spotlights div picture img{
+    width: 100%;
 }
 
 #event{
@@ -33,8 +47,12 @@ main div{
 }
 
 #weather{
-    grid-column: 1;
+    grid-column: 1 / 3;
     grid-row: 2;
+}
+
+#weather div div span img{
+    width: 200px;
 }
 
 #join{
@@ -42,7 +60,7 @@ main div{
     grid-row: 3;
 }
 #hero, .newEvent{
-    grid-row: 1 / 3;
+    grid-row: 1;
     grid-column: 2 / 3
 }
 #news{
@@ -54,6 +72,11 @@ main div{
     display: block;
     grid-column: 3;
     grid-row: 1 / 4;
+}
+
+div a.portal-links{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #discoverContent{
@@ -74,6 +97,11 @@ main div{
     transition: margin 4s;
 }
 
+body#content main {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #discoverContent picture img:hover{
     filter: brightness(130%);
 }
@@ -92,7 +120,7 @@ main div{
 /*Join page*/
 
 div#join-us{
-    padding-left: 17vw;
+    padding-left: 18vw;
 }
 
 div#join-container {

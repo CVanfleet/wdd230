@@ -1,5 +1,9 @@
 /* header #4a4e69*/
 
+body#content{
+    font-family: 'Manrope';
+}
+
 #name {
     display: none;
 }
@@ -20,11 +24,10 @@ nav button {
     color: #eee;
 }
 
-div img {
+nav div img {
     width: 3rem;
     margin: .2rem;
 }
-
 #social-container {
     margin-left: auto;
 }
@@ -103,18 +106,30 @@ main div {
     border-bottom: 1px solid #292c3b;
 }
 
+main#portal-content div{
+    padding: 30px;
+}
+
 picture.heroPhoto {
     display: block;
     width: 100%;
     padding: 0;
+    margin-bottom: 30px;
 }
+a#address {
+    color:#eee;
+}
+
+a#address:hover{
+    color: #a92837;
+}
+
 p.highlow{
     margin: 0;
 }
 
 picture.heroPhoto img {
     width: 100%;
-    margin: 0;
 }
 
 div#weather {
@@ -134,27 +149,47 @@ div#weather {
     margin-left: 2%;
 }
 
+main#portal-content {
+    text-align: center;
+}
+
+main#portal-content > div {
+    border-radius: 6px;
+}
+
 #weather div div span img {
     width: 150px;
     border-radius: 8px;
 }
 
-#spotlights div {
-    background-color: rgb(229, 229, 229);
-    border: 1px solid #292c3b;
-}
-
-#spotlights {
+div#spotlights {
     background-color: #292c3b;
-    margin: .8rem auto;
-    padding: .2rem;
-    border-top: 1px solid #292c3b;
-    border-bottom: 1px solid #292c3b;
-}
-#spotlights div p {
-    color: #292c3b;
+    display:grid;
+    grid-template-columns: 1fr;
 }
 
+div#spotlights div p {
+    color: #292c3b;
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+}
+
+div a.portal-links {
+    text-decoration: none;
+    color: #eee;
+    font-size: 18pt;
+    background-color: #a92837;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8pt;
+}
+
+div a.portal-links:hover{
+    color: #252732;
+    background-color: #eee;
+}
 /* End of main */
 
 /* Start of footer */
@@ -290,8 +325,9 @@ section.bizcards a:hover {
 }
 
 img.comp-logo{
-    height: 50px;
-    width: 110px;
+    height: 90px;
+    width: auto;
+    border-radius: 4px;
 }
 
 div#table-view {
@@ -335,4 +371,69 @@ div#table-view table tr:nth-child(odd){
 
 main#weather-test{
     padding: 10px;
+}
+
+/* Contact page */
+main#contact-main div:nth-child(1){
+    text-align: center;
+}
+
+div#contact-form-container {
+    width: auto;
+    font-size: 16pt;
+}
+
+div#contact-form-container form {
+    display: block;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #a92837;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 4px;
+}
+
+label.contactinput input, label.contactinput textarea{
+    display: block;
+    font-size: 1.2rem;
+    width: 20rem;
+    max-width: 20rem;
+    margin-bottom: 10px;
+
+}
+
+label.mess-btn input{
+    padding: 20px;
+    min-width: 200px;
+    background-color: #167ffc;
+    color: #eee;
+    border-radius: 6px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+label.mess-btn input:hover{
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    background-color: rgb(39, 135, 252);
+}
+
+div#checkMsg {
+    background-image: linear-gradient(to right, rgba(169, 40, 55, .01), rgba(169, 40, 55,1), rgba(169, 40, 55, .01));
+}
+
+.message-res {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+div#checkMsg div {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }

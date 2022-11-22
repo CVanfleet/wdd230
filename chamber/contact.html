@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Clayton's website">
-    <title>Eagle Chamber - Main - WDD 230-03</title>
+    <title>Eagle Chamber - Thank You - WDD 230-03</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,18 +38,25 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main id="weather-test">
-        <h1>OpenWeatherMap.org API Test</h1>
-        <hr>
-        <p>The current temperature in <span id="city-temp"></span> is <span id="current-temp"></span> &deg;F</p>
-        <p>The current conditions icon path is "<span id="icon-src"></span>"</p>
-        <figure><img src="" alt="" id="weathericon" />  
-            <figcaption></figcaption>
-        </figure>
+    <main id="contact-main">
+        <div>
+            <h1>Have an inquiry? </h1>
+            <h1>Let us know!</h1>
+        </div>
+        <div id="contact-form-container">
+            <form action="messagesent.html" method="GET">
+                <label class="contactinput">First Name* <input id="fname" type="text" name="fname" required></label>
+                <label class="contactinput">Last Name* <input id="lname" type="text" name="lname" required></label>
+                <label class="contactinput">Email* <input type="email" name="email" id="email" required></label>
+                <label class="contactinput">Cell Phone* <input type="tel" name="cellphone" required></label>
+                <label class="contactinput">Message <textarea name="message" cols="30" rows="10" required></textarea></label>
+                <label class="mess-btn"><input type="submit" value="Send"></label>
+            </form>
+        </div>
     </main>
     <footer>
         <div id="footer-info">
@@ -72,6 +79,5 @@
         </div>
     </footer>
     <script src = "js/main.js"></script>
-    <script src ="js/weatherapi.js"></script>
 </body>
 </html>

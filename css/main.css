@@ -33,6 +33,10 @@ main, img{
     margin:10px;
 }
 
+main h2#chamber {
+    font-size: 20pt;
+}
+
 h1 {
     font-size: 30pt;
     margin: .75rem auto;

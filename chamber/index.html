@@ -38,23 +38,24 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <main id="portal-content">
         <div id="hero">
-            <picture class="heroPhoto">
-                <source media="(max-width: 200px)" srcset="images/wdd230-org-small200.jpg">
-                <source media="(max-width: 600px)" srcset="images/wdd230-org-medium600.jpg">
-                <source media="(max-width: 1100px)" srcset="images/wdd230-orglarge1100.jpg">
-                <img src="images/wdd230-org.jpg" alt="call to action">
-            </picture>
             <p>Hero with site name and call to action</p>
         </div>
         <div id="event">
-            <p>Event</p>
+            <h1>Event</h1>
+            <picture class="heroPhoto">
+                <source media="(100px <= width <= 400px)" srcset="images/portal/event-small.jpeg">
+                <source media="(401px <= width <= 800px)" srcset="images/portal/event-medium.jpeg">
+                <source media="(801px <= width)" srcset="images/portal/event-large.jpeg">
+                <img src="images/portal/event-large.jpeg" alt="call to action">
+            </picture>
+            <p>Join the community in making our city a better place!</p>
         </div>
         <div id="weather">
             <div>
@@ -68,24 +69,57 @@
                 <p class="highlow">Low: <span id="temp-low"></span>&#8457;</p>
                 <hr>
                 <p>Wind Speed: <span id="wind"></span> mph</p>
-                <p>Wind Chill: <span id="chill"></span>&#8457;</p>
+                <p>Wind Chill: <span id="chill">N/a</span></p>
             </div>
         </div>
         <div id="news">
-            <p>News Release</p>
+            <h1>News Release</h1>
+            <picture class="heroPhoto">
+                <source media="(100px <= width <= 400px)" srcset="images/portal/newsimage-small.jpeg">
+                <source media="(401px <= width <= 800px)" srcset="images/portal/newsimage-medium.jpeg">
+                <source media="(801px <= width)" srcset="images/portal/newsimage-large.jpeg">
+                <img src="images/portal/newsimage-large.jpeg" alt="call to action">
+            </picture>
+            <a class="portal-links" href="https://www.newsbreak.com/channels/eagle-id">Local News &#8680;</a>
         </div>
         <div id="join">
-            <p>Join us!</p>
+            <h1>Join us!</h1>
+            <picture class="heroPhoto">
+                <source media="(100px <= width <= 400px)" srcset="images/portal/join-small.jpeg">
+                <source media="(401px <= width <= 800px)" srcset="images/portal/join-medium.jpeg">
+                <source media="(801px <= width)" srcset="images/portal/join-large.jpeg">
+                <img src="images/portal/join-large.jpeg" alt="call to action">
+            </picture>
+            <a class="portal-links" href="./join.html">Join Us! &#8680;</a>
         </div>
         <div id="spotlights">
+            <h1>Spotlights</h1>
             <div>
-                <p>Spotlight 1</p>
+                <p>Dr. John Cunningham - Pediatrics</p>
+                <picture class="spotlight">
+                    <source media="(100px <= width <= 400px)" srcset="images/portal/spotlight1-small.jpeg">
+                    <source media="(401px <= width <= 800px)" srcset="images/portal/spotlight1-medium.jpeg">
+                    <source media="(801px <= width)" srcset="images/portal/spotlight1-medium.jpeg">
+                    <img src="images/portal/spotlight1-large.jpeg" alt="call to action">
+                </picture>
             </div>
             <div>
-                <p>Spotlight 2</p>
+                <p>Paul Jones - McDonald's Franchise</p>
+                <picture class="spotlight">
+                    <source media="(100px <= width <= 400px)" srcset="images/portal/spotlight2-small.jpeg">
+                    <source media="(401px <= width <= 800px)" srcset="images/portal/spotlight2-medium.jpeg">
+                    <source media="(801px <= width)" srcset="images/portal/spotlight2-medium.jpeg">
+                    <img src="images/portal/spotlight2-large.jpeg" alt="call to action">
+                </picture>
             </div>
             <div>
-                <p>Spotlight 3</p>
+                <p>Jeff Biles - Lawyer</p>
+                <picture class="spotlight">
+                    <source media="(100px <= width <= 400px)" srcset="images/portal/spotlight3-small.jpeg">
+                    <source media="(401px <= width <= 800px)" srcset="images/portal/spotlight3-medium.jpeg">
+                    <source media="(801px <= width)" srcset="images/portal/spotlight3-medium.jpeg">
+                    <img src="images/portal/spotlight3-large.jpeg" alt="call to action">
+                </picture>
             </div>
         </div>
     </main>
