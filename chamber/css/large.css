@@ -11,6 +11,10 @@ main#portal-content{
     display: block;
 }
 
+div#spotlights h1{
+    margin: 0px;
+}
+
 main#portal-content{
     font-size:larger;
 }
@@ -21,7 +25,7 @@ main div{
 }
 div#spotlights{
     border: 1px solid #292c3b;
-    margin: 0;
+    margin: 0px;
     max-width: fit-content;
 }
 
