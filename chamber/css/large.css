@@ -143,5 +143,9 @@ div#table-view table tr td {
     
 }
 
+div#board > div{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 }

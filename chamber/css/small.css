@@ -2,6 +2,7 @@
 
 body#content{
     font-family: 'Manrope';
+    background-color:#d0d5ee;
 }
 
 #name {
@@ -267,6 +268,7 @@ label.textinput input, label.textinput textarea{
 
 label.radinput {
     display: block;
+    margin-bottom: 10px;
 }
 
 label.btn input {
@@ -436,4 +438,20 @@ div#checkMsg div {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+div#board {
+    text-align: center;
+}
+
+div.director{
+    background-color: #8187aa;
+    margin: 30px 2%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.director picture img {
+    border-radius: 50%;
+    width: 80vw;
 }

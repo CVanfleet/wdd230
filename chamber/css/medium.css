@@ -91,6 +91,7 @@ div#card-view {
 section.bizcards{
     margin:auto;
 }
+
 }
 
 @media only screen and (min-width: 58.75rem){
@@ -151,5 +152,19 @@ label.contactinput input, label.contactinput textarea{
 label.mess-btn {
     margin: 0;
 }
+
+div#board > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.director {
+    width: auto;
+}
+
+div.director picture img {
+    width: auto;
+}
+
 
 }
